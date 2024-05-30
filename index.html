@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>website</title>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/icons8-yoga-100.png" class="logo">
+            <div class="header-text">
+                <h1>Join Our Wellness Challenge</h1>
+                <span class="square"></span>
+                <h2>Transform your health and well-being!</h2>
+                <p>Regular physical activity, such as walking, cycling, wheeling, doing sports or active recreation, provides significant benefits for health. <br>
+                " Some physical activity is better than doing none " </p>
+            
+                <button class="common-btn">Read More</button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                
 
+            </div>
+        </div>
+         
+    </section>
+    <nav id="sideNav">
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">BENEFITS</a></li>
+         <li><a href="#">CHALLENGES</a></li>
+         <li><a href="#">OFFER</a></li>
+         <li><a href="#">CONTACT</a></li>
+    </ul></nav>
+
+    <img src="images/menu.png" id="menuBtn">
+
+<!--about -->
+
+     <section id="about">
+        <div class="about-left-col">
+            <img src="images/R.jpeg" class="about">
+
+        </div>
+        <div class="about-right-col">
+            <div class="About-us">
+                <h1>ABOUT US</h1>
+                <span class="square"></span>
+                <p>Transform your body thanks to our challenges like the Body Challenge, the Six-Pack Challenge, the Cardio Blast Challenge and many more. Lose weight and build muscle in no time.Not only the physical fitness is concentrated but also the mental wellness . It is very essential for a person to be mentally healthy and happy .So grab this oppurtunity to become the better "YOU".</p>
+                <br><br>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                <h2>“ Physical fitness is not only one of the most important keys to a healthy body; it is the basis of dynamic and creative intellectual activity.” </h2>
+                <h3>----John F. Kenned</h3>
+               
+            </div>
+            
+        </div>
+     </section>
+
+     <!---Benefits--->
+
+     <section id="benefits">
+        <div class="benefit-text">
+            <h1>KEY BENEFITS</h1>
+            <img src="images/wellness.jpg" class="benefits">
+        </div>
+
+
+     </section id="form">
+     <div class="form">
+        <form id="f">
+            <fieldset>
+                <legend>Registration Form</legend>
+<br>
+                First Name:<input type="text"><br>
+                Last Name:<input type="text"><br>
+                E-mail:<input type="email"><br>
+                Phone Number:<input type="number"><br><br>
+                
+                <button type="submit">Submit</button>
+                <button type="reset">reset</button>
+              
+                
+            </fieldset>
+           
+
+           
+        </form>
+     </div>
+
+     </section>
+
+    <script>
+
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right="0";
+            }
+            else{
+                sideNav.style.right="-250px";
+            }
+        }
+        
+    </script>
+</body>
+</html>
